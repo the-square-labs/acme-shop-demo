@@ -1,8 +1,8 @@
 import { createServer } from 'node:http';
 import { hostname } from 'node:os';
 
-const VERSION = '1.0.0';
-const HEADLINE = 'Everything for the workshop, delivered tomorrow';
+const VERSION = '1.1.0';
+const HEADLINE = 'Everything for the workshop, delivered today';
 const port = Number(process.env.PORT ?? 8080);
 
 const page = () => `<!doctype html>
